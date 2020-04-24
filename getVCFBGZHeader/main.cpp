@@ -55,5 +55,7 @@ int main(int argc, const char * argv[]) {
         fprintf(stderr,"hts_close(%s): non-zero status %d\n", argv[1], ret);
         exit(ret);
     }
+    
+    std::cout << "Finished!" << std::endl;
     return 0;
 }
